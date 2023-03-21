@@ -23,7 +23,7 @@ public class Tests {
 WebDriver driver;
 
 	
-@Before	
+
 	@Given("User should open the url")
 	public void user_should_open_the_url() {
 	    WebDriverManager.chromedriver().setup();
