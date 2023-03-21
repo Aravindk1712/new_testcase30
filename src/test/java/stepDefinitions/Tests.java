@@ -11,46 +11,19 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import POJO.employee;
-import dataProvider.configReader;
-import io.cucumber.java.en.*;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import io.restassured.RestAssured;
-import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
+//https://github.com/Aravindk1712/new_testcase30.git
 
-import java.awt.AWTException;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.*;
-import java.awt.AWTException;
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
-import org.testng.Assert;
-
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class Tests {
 WebDriver driver;
 
 	
-	
+@Before	
 	@Given("User should open the url")
 	public void user_should_open_the_url() {
 	    WebDriverManager.chromedriver().setup();
